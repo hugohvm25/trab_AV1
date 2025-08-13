@@ -1,0 +1,13 @@
+2025-08-13 19:43:17 - Salvar / carregar JSON - ok
+2025-08-13 19:43:24 - Cadastrar alfabeto - ok
+2025-08-13 19:43:25 - Listar alfabetos - ok
+2025-08-13 19:43:27 - Validar simbolo - ok
+2025-08-13 19:43:29 - Validar cadeia - ok
+2025-08-13 19:43:30 - Testar linguagem simples - ok
+2025-08-13 19:43:36 - Gerar relatório - ok
+2025-08-13 19:43:38 - Tabela-verdade P e Q - ok
+2025-08-13 19:43:39 - Simular custo - ok
+2025-08-13 19:43:40 - Operações de fechamento - ok
+2025-08-13 19:43:43 - Operações de fechamento - ok
+2025-08-13 19:43:47 - Reconhecedor com limite - ok
+2025-08-13 19:45:34 - Sair - ok

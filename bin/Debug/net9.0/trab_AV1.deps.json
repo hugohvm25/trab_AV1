@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "trab_AV1/1.0.0": {
+        "runtime": {
+          "trab_AV1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "trab_AV1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
