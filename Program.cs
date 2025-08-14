@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-
-class Programa
+﻿static class Programa
 {
     static void Main(string[] args)
     {
@@ -9,7 +6,7 @@ class Programa
 
         while (menu != "0")
         {
-            Console.Clear(); 
+            Console.Clear();
 
             Console.WriteLine("==========================");
             Console.WriteLine("Escolha uma opcao abaixo:");
@@ -28,7 +25,7 @@ class Programa
             Console.WriteLine("12 - Classificar arquivo");
             Console.WriteLine("13 - Importar / exportar projeto");
             Console.WriteLine("0 - Sair\n");
-          
+
             Console.WriteLine("==========================");
             Console.WriteLine("Digite a opcao desejada:");
             Console.WriteLine("==========================");
@@ -40,7 +37,8 @@ class Programa
             switch (menu)
             {
                 case "1":
-                    Console.WriteLine("Em construcao\n");
+                    
+                    Console.WriteLine("Em construcao.\n");
                     break;
 
                 case "2":
@@ -81,7 +79,7 @@ class Programa
                 case "10":
                     Console.WriteLine("Em construcao.\n");
                     break;
-                
+
                 case "11":
                     Console.WriteLine("Em construcao.\n");
                     break;
@@ -112,22 +110,12 @@ class Programa
     }
 }
 
-class Alfabeto
+static class Servicos
 {
-    public string Nome { get; set; }
-
-    public Alfabeto(string nome)
-    {
-        Nome = nome;
-    }
+    // Métodos utilitários podem ir aqui
 }
 
-class Servicos
-{
-
-}
-
-class Persistencia
+static class Persistencia
 {
     private static string caminho = "data/alfabetos.json";
 
@@ -138,7 +126,7 @@ class Persistencia
             if (!Directory.Exists("data"))
                 Directory.CreateDirectory("data");
 
-            string json = "{}"; 
+            string json = "{}";
             File.WriteAllText(caminho, json);
         }
         catch (Exception ex)
@@ -154,7 +142,7 @@ class Persistencia
             if (File.Exists(caminho))
             {
                 string json = File.ReadAllText(caminho);
-              // implemetar aqui 
+                // implementar aqui
             }
         }
         catch (Exception ex)
@@ -164,7 +152,7 @@ class Persistencia
     }
 }
 
-class Relatorio
+static class Relatorio
 {
     private static string caminho = "data/relatorio.txt";
 

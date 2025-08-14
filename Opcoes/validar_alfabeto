@@ -1,0 +1,10 @@
+namespace TRAB_AV1.Opcoes;
+
+public static class Alfabeto
+{
+    public static void Cadastrar()
+    {
+        Console.WriteLine("Função de cadastro de alfabeto chamada!");
+        // Lógica real aqui
+    }
+}

@@ -12,3 +12,4 @@ G:\PROJETOS\trab_av1_comp_cientif\trab_AV1\obj\Debug\net9.0\refint\trab_AV1.dll
 G:\PROJETOS\trab_av1_comp_cientif\trab_AV1\obj\Debug\net9.0\trab_AV1.pdb
 G:\PROJETOS\trab_av1_comp_cientif\trab_AV1\obj\Debug\net9.0\trab_AV1.genruntimeconfig.cache
 G:\PROJETOS\trab_av1_comp_cientif\trab_AV1\obj\Debug\net9.0\ref\trab_AV1.dll
+G:\PROJETOS\trab_av1_comp_cientif\trab_AV1\obj\Debug\net9.0\trab_AV1.sourcelink.json
